@@ -1,0 +1,12 @@
+{
+  "BaseERC20Module": {
+    "name": "ERC20Token",
+    "symbol": "ERC20",
+    "amount": "1000000000",
+    "owner": "",
+    "authority": ""
+  },
+  "BaseAccessManagerModule": {
+    "admin": ""
+  }
+}

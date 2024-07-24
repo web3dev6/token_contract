@@ -1,0 +1,23 @@
+{
+  "name": "token_contract",
+  "version": "1.0.0",
+  "description": "basic implementations of ERC Token Standards",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "ignite-baseERC20": "npx hardhat ignition deploy ./ignition/modules/BaseERC20.ts --parameters ignition/parameters.json --network amoy",
+    "deploy-baseERC20": "npx hardhat run scripts/deploy-erc20.ts --network amoy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.8",
+    "hardhat": "^2.22.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
