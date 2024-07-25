@@ -2,11 +2,15 @@
 
 This project demonstrates basic implementations of ERC Token Standards (ERC20).
 
-Make sure to add a valid funded private key in .env file (refer .env.example).
-Make sure to add owner's wallet address in ignition -> parameters.json -> BaseERC20Module -> owner
-Make sure to add admin's wallet address in ignition -> parameters.json -> BaseAccessManagerModule -> admin
+Note:
 
-Note: owner(token) and admin(access_manager) can be same.
+Make sure to add a valid funded private key in .env file (refer .env.example).
+
+Make sure to add owner's wallet address in ignition -> parameters.json -> BaseERC20Module -> owner.
+
+Make sure to add admin's wallet address in ignition -> parameters.json -> BaseAccessManagerModule -> admin.
+
+The owner(token) and admin(access_manager) can be the same wallet for simplicity.
 
 Now, try running some of the following scripts:
 ```shell
